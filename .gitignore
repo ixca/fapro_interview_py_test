@@ -1,0 +1,11 @@
+__pycache__/
+fapro_interview/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg/
+*.pyc
+*.pyo
+*.env
+*.venv
