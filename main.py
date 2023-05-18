@@ -17,7 +17,7 @@ def get_uf_value(date_str: str) -> float:
 
     today = datetime.today()
 
-    if date < (today - timedelta(days=365)):
+    if date < datetime.strptime("2013-01-01", "%Y-%m-%d"):
         raise ValueError("La fecha consultada es demasiado antigua")
 
     year = date.year
